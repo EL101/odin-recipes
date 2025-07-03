@@ -10,6 +10,8 @@
 
 .recipe-page-body {
     background-color: antiquewhite;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .menu {
@@ -46,7 +48,20 @@
     font-family: Tangerine, Verdana, sans-serif;
     color: rgb(173, 93, 27);
 }
-
+.recipe-name {
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.recipe-page-links {
+    display: inline-block;
+    font-size: 4vh;
+    margin: 10px 30px;
+}
+.recipe-section {
+    font-family: Tangerine, Verdana, sans-serif;
+    font-size: 4vh;
+}
 .recipe, .recipe:visited {
     text-decoration: none;
     color: rgb(173, 93, 27);
