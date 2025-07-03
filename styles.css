@@ -16,7 +16,7 @@ body {
     padding: 0 20px 20px 20px;
 }
 
-h1 {
+.home-title {
     width: auto;
     border-bottom: 5px solid black;
     padding: 10px;
@@ -26,7 +26,7 @@ h1 {
     font-family: "Mea Culpa", Verdana, sans-serif;
 }
 
-li {
+.recipe-list {
     width: 75%;
     list-style: none;
     /* border: 2px black solid; */
@@ -35,18 +35,18 @@ li {
     text-align: center;
 }
 
-a {
+.recipe {
     margin: 0 auto;
     font-weight: 1000;
     font-size: 7vh;
     font-family: Tangerine, Verdana, sans-serif;
 }
 
-a, a:visited {
+.recipe, .recipe:visited {
     text-decoration: none;
     color: rgb(173, 93, 27);
 }
 
-a:hover {
+.recipe:hover {
     color: rgb(100, 58, 24);
 }
