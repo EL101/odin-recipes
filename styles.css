@@ -5,14 +5,13 @@
 }
 
 body {
-    background-color: white;
+    background-color: #F4A460;
 }
 
 .menu {
     background-color: antiquewhite;
-    width: 500px;
-    height: 500px;
-    height: auto;
+    width: 700px;
+    height: 90vh;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
 }
@@ -22,8 +21,9 @@ h1 {
     border-bottom: 5px solid black;
     padding: 10px;
     text-align: center;
-    margin: 10px auto;
-    font-size: 50px;
+    margin: 10px auto 30px auto;
+    font-size: 7vh;
+    font-family: "Mea Culpa", Verdana, sans-serif;
 }
 
 li {
@@ -31,17 +31,22 @@ li {
     list-style: none;
     /* border: 2px black solid; */
     padding: 5px;
-    margin: 20% auto;
+    margin: 0 auto 20% auto;
     text-align: center;
 }
 
 a {
     margin: 0 auto;
+    font-weight: 1000;
+    font-size: 7vh;
+    font-family: Tangerine, Verdana, sans-serif;
 }
 
 a, a:visited {
     text-decoration: none;
     color: rgb(173, 93, 27);
-    font-weight: 700;
-    font-size: 40px;
+}
+
+a:hover {
+    color: rgb(100, 58, 24);
 }
