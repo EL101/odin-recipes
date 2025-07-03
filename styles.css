@@ -84,3 +84,9 @@
     margin-bottom: 20px;
     color: #855f27;
 }
+
+.recipe-image {
+    margin: 10px auto;
+    height: 250px;
+    width: auto;
+}
